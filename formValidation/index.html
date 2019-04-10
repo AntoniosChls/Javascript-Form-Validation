@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="form">
+        <h2>Form Validation</h2><br>
+        <input type="text" id="Name" class="inputs" placeholder="Name" onkeyup="testName()">
+        <h3 id="NameError"></h3>
+        <br>
+        <input type="text" id="Email" class="inputs" placeholder="Email" onkeyup="testEmail()"><br>
+        <h3 id="EmailError"></h3>
+        <input type="text" id="ReEmail" class="inputs" placeholder="Repeat Email" onkeyup="testReEmail()"><br>
+        <h3 id="ReEmailError"></h3>
+        <input type="text" id="Phone" class="inputs" placeholder="Phone" onkeyup="testPhone()"><br>
+        <h3 id="PhoneError"></h3>
+        <input type="password" id="Password" class="inputs" placeholder="Password" onkeyup="testPassword()"><br>
+        <h3 id="PasswordError"></h3>
+        <input type="text" id="Address" class="inputs" placeholder="Address (ex. Address 123)" onkeyup="testAddress()">
+        <h3 id="AddressError"></h3>
+        <div id="buttons">
+            <br>
+            <button type="button" onclick="">Reset</button>
+            <button type="button" onclick="">Submit</button>
+        </div>
+    </div>
+
+</html>
